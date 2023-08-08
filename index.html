@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+	<head>
+		<style type="text/css">
+			html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+
+			.parallax {
+				height: 100%;
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+				position: relative;
+			}
+
+			.first {
+				background-image: url(img/pic_one.jpg);
+			}
+
+			.second {
+				background-image: url(img/pic_two.jpg);
+				height: 72%;
+			}
+
+			.three {
+				background-image: url(img/pic_three.jpg);
+				height: 72%;
+			}
+
+			.four {
+				background-image: url(img/pic_four.jpg);
+				height: 72%;
+			}
+
+			.right-heading {
+				position: absolute;
+				top: 50%;
+				right: 5%;
+				transform: translate(0%, -50%);
+				font-family: Helvetica, Arial, sans-serif;
+				color: white;
+				text-align: right;
+				text-shadow: 6px 6px 6px #aeebeb;
+			}
+
+			.right-heading h1, .right-heading h2 {
+				font-weight: 300;
+			}
+
+			.right-heading h1 {
+				font-size: 400%;
+				line-height: 30%;
+			}
+
+			.band h1 {
+				font-family: Helvetica;
+				font-weight: 300;
+				text-align: center;
+				font-size: 275%;
+				padding-top: 20px;
+				padding-bottom: 20px;
+			}
+
+			.sub-caption {
+				background: rgba(255, 255, 255, 0.45);
+				font-family: Helvetica;
+				width: 50%;
+				padding-top: 27px;
+				padding-bottom: 27px;
+				padding-left: 20px;
+				padding-right: 20px;
+				font-size: 160%;
+				font-weight: 300;
+
+				position: absolute;
+				top: 50%;
+				right: 5%;
+				transform: translate(0%, -50%);
+			}
+
+			.left {
+				position: absolute;
+				top: 50%;
+				left: 5%;
+				transform: translate(0%, -50%);
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="parallax first">
+			<div class="right-heading">
+				<h1>AVENTADOR</h1>
+				<h2>6.5 L539 V12 / 691-740 HP / LP-700-4</h2>
+			</div>
+		</div>
+
+		<div class="band">
+			<h1>6.5 L539 V12 Engine</h1>
+		</div>
+
+		<div class="parallax second">
+			<div class="sub-caption">
+				<div class="caption-text">
+					The Aventador's handcrafted 6.5L V12 is the heart of the beast, producing up to 740hp.
+				</div>
+			</div>
+		</div>
+
+		<div class="band">
+			<h1>7-speed ISR Gearbox</h1>
+		</div>
+
+		<div class="parallax three">
+			<div class="sub-caption left">
+				<div class="caption-text">
+					Through a unique design of flappy paddle gearbox, the Aventador can achieve blazing 50ms shifts.
+				</div>
+			</div>
+		</div>
+
+		<div class="band">
+			<h1>A Legend in "The Green Hell"</h1>
+		</div>
+
+		<div class="parallax four">
+			<div class="sub-caption">
+				<div class="caption-text">
+					The Aventador Superveloce is one of only 4 production cars to lap the N&uuml;burgring in under 7 minutes (6.59:73).
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
